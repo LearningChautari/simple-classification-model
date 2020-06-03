@@ -42,7 +42,7 @@ classifier.fit(training_vectors, training_labels)
 predictions = classifier.predict(testing_vectors)
 print(predictions)
 
-
+# output tree.dot
 tree.export_graphviz(
     classifier,
     out_file='tree.dot',
